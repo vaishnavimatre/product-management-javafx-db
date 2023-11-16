@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity"  fx:controller="usermanagement_screen.UserManagementScreenController" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="582.0" prefWidth="810.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="AddUser" layoutX="245.0" layoutY="128.0" onAction="#showAddUser" prefHeight="31.0" prefWidth="340.0" style="-fx-background-color: #ff931f;" text="                 Add User">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="EditUser" layoutX="245.0" layoutY="204.0" onAction="#showEditUser" prefHeight="31.0" prefWidth="340.0" style="-fx-background-color: #ff931f;" text="                  Edit User">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="SearchUser" layoutX="247.0" layoutY="276.0" onAction="#showSearchUser" prefHeight="31.0" prefWidth="340.0" style="-fx-background-color: #ff931f;" text="              Search User">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="DeleteUser" layoutX="251.0" layoutY="349.0" onAction="#showDeleteUser" prefHeight="31.0" prefWidth="340.0" style="-fx-background-color: #ff931f;" text="               Delete User">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="quit" layoutX="247.0" layoutY="416.0" onAction="#showQuit" prefHeight="31.0" prefWidth="340.0" style="-fx-background-color: #ffffff; -fx-border-color: red;" text="                               ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="7.0" layoutY="10.0" prefHeight="21.0" prefWidth="226.0" text="     User Management" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="380.0" layoutY="426.0" text="Quit" textFill="RED" />
+      <Label layoutX="625.0" layoutY="22.0" prefHeight="21.0" prefWidth="128.0" text="Vaibhav Zodge" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff931f" height="592.0" layoutX="-6.0" layoutY="-1.0" stroke="BLACK" strokeType="INSIDE" width="115.0" />
+      <Label layoutX="280.0" layoutY="36.0" prefHeight="59.0" prefWidth="369.0" text="        User Management">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

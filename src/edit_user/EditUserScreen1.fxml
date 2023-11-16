@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity"  fx:controller="edit_user.EditUserScreenController" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="579.0" prefWidth="775.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff7c1f" height="586.0" layoutY="1.0" stroke="BLACK" strokeType="INSIDE" width="109.0" />
+            <TextField fx:id="NewPassword" layoutX="316.0" layoutY="346.0" prefHeight="31.0" prefWidth="342.0" />
+            <TextField fx:id="NewUserRole" layoutX="316.0" layoutY="423.0" prefHeight="31.0" prefWidth="342.0" />
+            <TextField fx:id="UserNameToEdit" layoutX="316.0" layoutY="149.0" prefHeight="31.0" prefWidth="342.0" />
+            <TextField fx:id="NewloginName" layoutX="316.0" layoutY="277.0" prefHeight="31.0" prefWidth="342.0" />
+            <TextField fx:id="NewUserName" layoutX="316.0" layoutY="213.0" prefHeight="31.0" prefWidth="342.0" />
+            <Label layoutX="158.0" layoutY="154.0" prefHeight="21.0" prefWidth="130.0" text="UserName To Edit" />
+            <Label layoutX="169.0" layoutY="351.0" prefHeight="21.0" prefWidth="69.0" text="Password" />
+            <Label layoutX="166.0" layoutY="282.0" prefHeight="21.0" prefWidth="86.0" text="loginName" />
+            <Label layoutX="176.0" layoutY="218.0"  prefHeight="21.0" prefWidth="86.0"  text="UserName" />
+            <Label layoutX="176.0" layoutY="428.0" prefHeight="21.0" prefWidth="69.0" text="UserRole" />
+            <Label layoutX="359.0" layoutY="66.0" prefHeight="53.0" prefWidth="201.0" text="Edit User">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+            </Label>
+            <Button fx:id="Edit" layoutX="682.0" layoutY="149.0" mnemonicParsing="false" onAction="#Edit" prefHeight="31.0" prefWidth="69.0" style="-fx-background-color: green;" text="Edit" textFill="WHITE" />
+            <Button layoutX="238.0" layoutY="497.0" mnemonicParsing="false" text="Clear"  onAction="#Clear" />
+            <Button layoutX="528.0" layoutY="497.0" mnemonicParsing="false" text="Save" onAction="#Save"/>
+         </children>
+      </Pane>
+   
